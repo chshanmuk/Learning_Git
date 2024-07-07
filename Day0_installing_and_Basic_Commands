@@ -5,3 +5,15 @@ Installed git in windows and been accessing with powershell and registered name 
 
 and to list all the output done
 -- git --list
+
+and to clone the repository
+-- git clone <clone_link>
+
+Once the repo got cloned to the local check the status of any files being not added like --git status
+once cloned add a file to the repo by doing
+
+git add <file> -- this will add the file to the local but nothing got commited yet (file will be in staging for now) and we need to commit the changes using
+git commit -m <commit message>
+
+once done, the file is commited to the local branch but need to be pushed to main branch or whatever branch we were looking into by doing
+git push origin main (here orging refers to the github copy of our repository) and (main is the branch as default)
