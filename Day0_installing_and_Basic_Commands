@@ -1,0 +1,7 @@
+Installed git in windows and been accessing with powershell and registered name and email with the below commands
+
+-- git config --global user.name "<name>"
+-- git config --global user.email "email"
+
+and to list all the output done
+-- git --list
